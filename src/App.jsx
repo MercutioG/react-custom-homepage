@@ -1,8 +1,8 @@
-import React from 'react'
+import GoogleSearchBar from "./components/SearchBar"
 
 const App = () => {
   return (
-    <div>App</div>
+    <GoogleSearchBar/>
   )
 }
 
