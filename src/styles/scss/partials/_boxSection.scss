@@ -1,0 +1,35 @@
+.box-links-container{
+  width: calc(44vw + 4rem);
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin-left: 2vw;
+}
+
+.box-links{
+  width: 22vw;
+  height: 12vw;
+
+  margin: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  background-image: radial-gradient(#181818, #151515);
+  border-radius: 1rem;
+  transition: 0.125s ease;
+
+  &:hover{
+    scale: 1.05;
+    box-shadow: #eee 0px 0px 5px 5px;
+  }
+
+  img{
+    max-width: 55%;
+    max-height: 60%;
+    filter: brightness(70%);
+  }
+}

@@ -3,3 +3,16 @@
 @use './base';
 @use './layout/app';
 @use './components/list';
+@import './partials/searchBar';
+@import './partials/boxSection';
+
+body {
+  background-image: url('../../images/bullseye-gradient.svg');
+  background-size: cover;
+  background-position: center 25%;
+}
+
+nav {
+  display: flex;
+  padding: 2rem;
+}

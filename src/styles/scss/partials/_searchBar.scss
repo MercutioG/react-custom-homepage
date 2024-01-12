@@ -1,0 +1,39 @@
+#big-searchbar-container{
+  display: flex;
+  align-items: center;
+}
+
+.searchbar-container {
+  box-shadow: #00000040 2px 2px 2px 0px;
+  background-color: #cbcbcb;
+  width: fit-content;
+  border-radius: 100rem;
+  height: 4.25rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.searchbar, .searchbar:active, .searchbar:focus {
+  border: none;
+  outline: none;
+  border-radius: 100rem;
+
+  width: calc(100vw - 40rem);
+  padding: 0.75rem;
+  margin-left: 1rem;
+
+  font-size: 2rem;
+  background-color: #00000000;
+}
+
+.search-logo{
+  height: 3rem;
+  padding-right: 1.5rem;
+  cursor: pointer;
+}
+
+.google-logo{
+  height: 5.5rem;
+  padding-right: 1rem;
+}
