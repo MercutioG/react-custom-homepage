@@ -1,0 +1,23 @@
+.accordion-container{
+  width: calc(56vw - 10rem);
+  margin: 1.25rem;
+}
+
+.accordion-item, .accordion-button {
+  background-color: #222;
+  color: #eee;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+
+@media screen and (max-width: 770px) {
+  .accordion-container{
+    width: calc(100vw);
+    margin: 0;
+    margin-top: 0.25rem;
+  }
+
+  .accordion-item, .accordion-button {
+    font-size: calc(1.5vw + 0.5rem);
+  }
+}

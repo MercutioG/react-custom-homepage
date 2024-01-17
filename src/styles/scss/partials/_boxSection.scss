@@ -24,12 +24,34 @@
 
   &:hover{
     scale: 1.05;
-    box-shadow: #eee 0px 0px 5px 5px;
+    box-shadow: #eee 0px 0px 8px 5px;
   }
 
   img{
     max-width: 55%;
     max-height: 60%;
     filter: brightness(70%);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .box-links-container{
+    width: calc(100vw - 1rem);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    margin-left: 2vw;
+  }
+
+  .box-links{
+    width: 30vw;
+    height: 20vw;
+    margin: {
+      top: 0.25rem;
+      bottom: 0.25rem;
+      left: 0;
+      right: 0;
+    };
   }
 }

@@ -54,10 +54,6 @@ embed {
   height: auto;
 }
 
-html {
-  overflow-y: hidden;
-}
-
 ul {
   list-style: none;
 }
@@ -380,6 +376,25 @@ main {
   padding-right: 1rem;
 }
 
+@media screen and (max-width: 950px) {
+  .google-logo {
+    display: none;
+  }
+  .searchbar, .searchbar:active, .searchbar:focus {
+    width: calc(100vw - 20rem);
+  }
+}
+@media screen and (max-width: 750px) {
+  .search-logo, .switch-btn {
+    display: none;
+  }
+  .searchbar, .searchbar:active, .searchbar:focus {
+    width: calc(100vw - 4rem);
+    height: 0.75rem;
+    font-size: 1rem;
+    margin: 0;
+  }
+}
 .box-links-container {
   width: calc(44vw + 4rem);
   display: flex;
@@ -401,7 +416,7 @@ main {
 }
 .box-links:hover {
   scale: 1.05;
-  box-shadow: #eee 0px 0px 5px 5px;
+  box-shadow: #eee 0px 0px 8px 5px;
 }
 .box-links img {
   max-width: 55%;
@@ -409,13 +424,76 @@ main {
   filter: brightness(70%);
 }
 
+@media screen and (max-width: 770px) {
+  .box-links-container {
+    width: calc(100vw - 1rem);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+  }
+  .box-links {
+    width: 30vw;
+    height: 20vw;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.accordion-container {
+  width: calc(56vw - 10rem);
+  margin: 1.25rem;
+}
+
+.accordion-item, .accordion-button {
+  background-color: #222;
+  color: #eee;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+
+@media screen and (max-width: 770px) {
+  .accordion-container {
+    width: 100vw;
+    margin: 0;
+    margin-top: 0.25rem;
+  }
+  .accordion-item, .accordion-button {
+    font-size: calc(1.5vw + 0.5rem);
+  }
+}
 body {
   background-image: url("../../images/bullseye-gradient.svg");
-  background-size: cover;
+  background-size: 120vw;
   background-position: center 25%;
+}
+
+.body-container {
+  display: flex;
 }
 
 nav {
   display: flex;
   padding: 2rem;
+}
+
+.switch-btn {
+  background-color: #796bff;
+  color: #eee;
+  font-weight: bold;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  margin-left: 3rem;
+  width: 10rem;
+  box-shadow: black 5px 5px 5px;
+}
+
+@media screen and (max-width: 770px) {
+  * {
+    overflow-y: auto !important;
+  }
+  .body-container {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */

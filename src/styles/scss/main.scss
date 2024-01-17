@@ -5,14 +5,40 @@
 @use './components/list';
 @import './partials/searchBar';
 @import './partials/boxSection';
+@import './partials/accordion';
 
 body {
   background-image: url('../../images/bullseye-gradient.svg');
-  background-size: cover;
+  background-size: 120vw;
   background-position: center 25%;
+}
+
+.body-container {
+  display: flex;
 }
 
 nav {
   display: flex;
   padding: 2rem;
+}
+
+.switch-btn {
+  background-color: #796bff;
+  color: #eee;
+  font-weight: bold;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  margin-left: 3rem;
+  width: calc(10rem);
+  box-shadow: black 5px 5px 5px;
+}
+
+@media screen and (max-width: 770px) {
+  *{
+    overflow-y: auto !important;
+  }
+
+  .body-container {
+    flex-direction: column;
+  }
 }

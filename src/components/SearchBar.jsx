@@ -2,7 +2,7 @@ import { useState } from 'react';
 import searchLogo from '../images/icon-search.svg'
 import googleLogo from '../images/google-logo.png'
 
-const GoogleSearchBar = () => {
+const GoogleSearchBar = (gitHubLogo) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleInputChange = (e) => {
