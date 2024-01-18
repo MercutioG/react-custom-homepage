@@ -12,7 +12,7 @@ const Accordion = () => {
           </h2>
           <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-            <iframe src="https://open.spotify.com/embed/track/2wCLmJ4EWsfTXGqYpPyJmx?utm_source=generator&theme=0" width="100%" height="152" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"/>
+            <iframe title='Ice Cream Song Spotify' src="https://open.spotify.com/embed/track/2wCLmJ4EWsfTXGqYpPyJmx?utm_source=generator&theme=0" width="100%" height="152" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"/>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ const Accordion = () => {
           </h2>
           <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-              <iframe src="https://open.spotify.com/embed/track/1ckhUtD8nBH2ShPlU8w2nU?utm_source=generator&theme=0" width="100%" height="152" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"/>
+              <iframe title='All My Fellas Spotify' src="https://open.spotify.com/embed/track/1ckhUtD8nBH2ShPlU8w2nU?utm_source=generator&theme=0" width="100%" height="152" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"/>
             </div>
           </div>
         </div>
